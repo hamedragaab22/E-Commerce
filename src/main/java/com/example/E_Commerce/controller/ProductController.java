@@ -1,0 +1,22 @@
+package com.example.E_Commerce.controller;
+
+import com.example.E_Commerce.model.Product;
+import com.example.E_Commerce.service.ProductService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+
+public class ProductController {
+    ProductService productService;
+    @Autowired
+    public ProductController(ProductService productService){
+        this.productService=productService;
+    }
+    @PostMapping()
+    public Product addProduct(@RequestBody Product product){
+        return productService.addProduct(product);
+    }
+}
