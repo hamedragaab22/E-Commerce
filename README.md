@@ -12,12 +12,11 @@ E-Commerce
 
 ## Features
 - add product
+- get all products
+- add category
+- get all category
 
-## Getting Started
 
-1. Clone the repository.
-2. Configure database credentials.
-3. Run the application.
 
 ## Author
 Hamed Ragab
