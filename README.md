@@ -1,7 +1,8 @@
 # Project Name
 E-Commerce
 ## Description
-
+- E-Commerce is a RESTful backend application built with Java and Spring Boot to provide core e-commerce functionalities.
+- The application allows users to register and log in securely using JWT (JSON Web Token) authentication. It also provides APIs for managing product categories and products.
 
 ## Technologies
 - Java
